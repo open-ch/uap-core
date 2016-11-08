@@ -1013,6 +1013,12 @@ test_cases:
     major: '8'
     minor: '7'
     patch: '0'
+    
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.14488.1025 Safari/537.36'
+    family: 'UC Browser'
+    major: '5'
+    minor: '7'
+    patch: '14488'
 
   - user_agent_string: 'Alcatel-OH5/1.0 UP.Browser/6.1.0.7.7 (GUI) MMP/1.0'
     family: 'UP.Browser'
@@ -6710,3 +6716,64 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'MacOutlook/15.27.0.161010 (Intelx64 Mac OS X Version 10.11.6 (Build 15G1108))'
+    family: 'MacOutlook'
+    major:  '15'
+    minor:  '27'
+    patch:  '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.8 (KHTML, like Gecko) Slack_SSB/2.0.3'
+    family: 'Slack Desktop Client'
+    major:  '2'
+    minor:  '0'
+    patch:  '3'
+
+  - user_agent_string: 'Microsoft-CryptoAPI/6.1'
+    family: 'Microsoft-CryptoAPI'
+    major:  '6'
+    minor:  '1'
+    patch:
+
+  - user_agent_string: 'Microsoft SkyDriveSync 17.3.6517.0809 ship; Windows NT 6.1 Service Pack 1 (7601)'
+    family: 'Microsoft SkyDriveSync'
+    major:  '17'
+    minor:  '3'
+    patch:  '6517'
+
+  - user_agent_string: 'ExchangeServicesClient/14.02.0051.000'
+    family: 'ExchangeServicesClient'
+    major:  '14'
+    minor:  '02'
+    patch:  '0051'
+
+  - user_agent_string: 'Mac OS X/10.11.6 (15G1004); ExchangeWebServices/6.0 (243); Mail/9.3 (3124)'
+    family: 'ExchangeWebServices'
+    major:  '6'
+    minor:  '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0+(iPhone;+CPU+iPhone+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'Mobile Safari'
+    major: '9'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0+(iPad;+CPU+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'Mobile Safari'
+    major: '9'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
+    family: 'Slackbot-LinkExpanding'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Slack-ImgProxy 1.136 (+https://api.slack.com/robots)'
+    family: 'Slack-ImgProxy'
+    major: '1'
+    minor: '136'
+    patch:
+
